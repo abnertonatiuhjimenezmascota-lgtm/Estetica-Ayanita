@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title> Informacion para Ingresar </title>
+<style>
+
+		body {
+			margin: 0;
+			font-family: "Segoe UI", sans-serif;
+			background-image: url("Fondo4.jpg");
+		    background-size: cover;
+    		background-position: center ;	
+			padding: 40px;
+		}
+
+		.card {
+			background: white;
+			padding: 30px;
+			border-radius: 18px;
+			box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+			margin: auto;
+			width: 500px;
+			animation: fadeIn 0.6s ease;
+			text-align: center;
+		}
+
+		@keyframes fadeIn {
+			from { opacity: 0; transform: translateY(15px); }
+			to   { opacity: 1; transform: translateY(0); }
+		}
+
+		h2 {
+			color: #c75b9b;
+			margin-bottom: 25px;
+			font-size: 26px;
+		}
+
+		.btn {
+			display: block;
+			background: #c75b9b;
+			color: white;
+			padding: 12px;
+			margin: 12px 0;
+			text-decoration: none;
+			border-radius: 10px;
+			font-size: 16px;
+			transition: 0.3s;
+		}
+
+		.btn:hover {
+			background: #a74682;
+			transform: translateY(-2px);
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="card">
+
+		<h2>¿Qué información desea ingresar?</h2>
+
+		<a href="Ingresar Servicios.php" class="btn">Ingresar Servicios</a>
+		<a href="Ingresar Clientes.php" class="btn">Ingresar Clientes</a>
+		<a href="Ingresar Materiales.php" class="btn">Ingresar Materiales</a>
+		<a href="Ingresar Facturas.php" class="btn">Ingresar Facturas</a>
+
+		<a href="Administracion de Estetica.html" class="btn">Regresar</a>
+
+	</div>
+	
+</body>
+</html>
